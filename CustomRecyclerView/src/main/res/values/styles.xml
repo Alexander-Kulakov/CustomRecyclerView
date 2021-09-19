@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="errorMessageStyle">
+        <item name="android:padding">@dimen/base_indent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="loadErrorButtonStyle">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

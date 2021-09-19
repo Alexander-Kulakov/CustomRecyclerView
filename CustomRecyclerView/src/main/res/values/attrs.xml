@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomRecyclerView">
+        <attr name="recyclerviewLayoutManager" format="enum">
+            <enum name="LINEAR" value="0"/>
+            <enum name="GRID" value="1"/>
+            <enum name="STAGGERED" value="2"/>
+        </attr>
+        <attr name="spanCount" />
+        <attr name="staggeredOrientation" format="enum">
+            <enum name="HORIZONTAL" value="0"/>
+            <enum name="VERTICAL" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
