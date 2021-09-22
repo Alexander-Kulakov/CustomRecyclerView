@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.customrecyclerview'
-version = '1.0'
+version = '1.1.0'
 
 android {
     compileSdk 31
@@ -57,7 +57,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.customrecyclerview'
                 artifactId = 'customrecyclerview'
-                version = '1.0'
+                version = '1.1.0'
             }
         }
     }
